@@ -1,4 +1,6 @@
-@host = http://localhost:3000
+#@host = http://localhost:3000
+
+@host = https://api-store-ajvy.onrender.com
 @apiProducts = {{host}}/api/products
 @apiUsers = {{host}}/api/users
 
@@ -16,7 +18,7 @@ GET {{apiProducts}}/active
 ###
 POST {{apiProducts}}
 Content-Type: application/json
-Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNjc0ZDgzM2IwMzY3NmEwZjA4ODk3MzFlIiwiaWF0IjoxNzMzMTM3NTI0fQ.TMa0aXY0lBSE4ei5W6AtwGsEjDGwl66g59VlKczRjug
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNjc0ZGM5YmM1ZDVkZmMwYWVhNGZhMzUzIiwiaWF0IjoxNzMzMTUxMTcyfQ.EsnUj_RQLaoZ_yElGi8tX_YRsysWw6lV0lRqZDpPojU
 
 {
     "name": "tabla de cortar",
